@@ -174,6 +174,7 @@ describe AwesomeJob do
   end
 end
 ```
+See also that the have_enqueued_job [matcher has been removed from rspec-sidekiq 1.x.x][have_enqueued_jobs_matcher_has_been_removed]
 
 ## Helpers
 * [Batches (Sidekiq Pro)](#batches)
@@ -221,5 +222,6 @@ Issues/Pull Requests/Comments all welcome...
 [travis_ci_badge]: https://travis-ci.org/philostler/rspec-sidekiq.svg?branch=develop
 
 [rspec_sidekiq_wiki_faq_&_troubleshooting]: https://github.com/philostler/rspec-sidekiq/wiki/FAQ-&-Troubleshooting
+[have_enqueued_jobs_matcher_has_been_removed]: https://github.com/philostler/rspec-sidekiq/wiki/FAQ-&-Troubleshooting#have_enqueued_jobs-matcher-has-been-removed-from-rspec-sidekiq-1xx-message
 [sidekiq_wiki_batches]: https://github.com/mperham/sidekiq/wiki/Batches
 [sidekiq_wiki_delayed_extensions]: https://github.com/mperham/sidekiq/wiki/Delayed-Extensions
