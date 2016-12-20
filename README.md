@@ -174,7 +174,7 @@ describe AwesomeJob do
   end
 end
 ```
-See also that the have_enqueued_job [matcher has been removed from rspec-sidekiq 1.x.x][have_enqueued_jobs_matcher_has_been_removed]
+**Note**: The have_enqueued_job [matcher has been removed from rspec-sidekiq 1.x.x][have_enqueued_jobs_matcher_has_been_removed]
 
 ## Helpers
 * [Batches (Sidekiq Pro)](#batches)
